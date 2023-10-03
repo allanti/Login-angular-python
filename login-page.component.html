@@ -1,0 +1,41 @@
+<div class="row" style="margin-bottom: 0%; height: 100vh;">
+    <div class="col s5 content">
+        <div class="row">
+            <div class="col s4 offset-s3"><img src="../../img/Logo.png" class="logo"></div>
+        </div>
+        <div class="row">
+            <div class="col s7 offset-s3"><p class="title">Acesse sua conta</p></div>
+        </div>
+        <form action="" class="row">
+            <div class="col s7 input-field offset-s2" style="margin-bottom: 10%;">
+                <input id="user" type="text" [(ngModel)]="user" class="validate input_login">
+                <label for="user" class="active label_login">Usuário</label>
+            </div>
+            <div class="col s7 input-field offset-s2" style="margin-bottom: 0%;">
+                <input id="password" type="password" [(ngModel)]="password" class="validate input_login">
+                <label for="password" class="active label_login">Senha</label>
+            </div>
+            <div class="col s12 offset-s2">
+                <a href="" style="color: white;">Esqueci a senha</a>
+            </div>
+            <div class="col s7 offset-s4" style="margin-top: 10%;">
+                <button id="button" type="button" class="btn btn-large" (click)="confirmation" style="background-color: #354468; font-weight: bold; width: 60%;">ACESSAR</button>
+            </div>
+        </form>
+    </div>
+    <div class="col s7 backgroundimg">
+        <div class="row" style="width: 100%;">
+            <div class="col s12">
+                <p class="copy" style="margin-top: 10%;">Dê o primeiro passo para a</p>
+                <p class="copy">produtividade com</p>
+                <p class="copy">Agileboard</p>
+            </div>
+            <div class="col s10 offset-s2">
+                <p class="description" style="margin-top: 15%;">- Tenha mais agilidade na organização de suas tarefas</p>
+                <p class="description">- Otimize o tempo com uma visão aprimorada de seus projetos</p>
+                <p class="description">- Colaboração facilitada</p>
+                <p class="description">- Clareza na tomada de descisão</p>
+            </div>
+        </div>
+    </div>
+</div>
